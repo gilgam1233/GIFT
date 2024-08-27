@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift</title>
+    <link rel="shortcut icon" href="./Picture/gift.png">
+    <link rel="stylesheet" href="gift3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="gift3.js" defer></script>
+</head>
+
+<body>
+    <audio id="backgroundMusic" loop>
+        <source src="./audio/happy_birthday_2.mp3" type="audio/mpeg">
+        Trình duyệt của bạn không hỗ trợ thẻ audio.
+    </audio>
+
+    <div class="wrapper ">
+        <div class="lid one"></div>
+        
+        <div class="envelope"></div>
+        <div class="letter" id="letter">
+          <p>Lời Chúc</p>
+        </div>
+        <button class="open"></button>
+      </div>
+
+      <div id="myLetter" class="hidden">
+        <h1 style="text-align: center; ">Lời Chúc</h1>
+        <p class="hidden">
+          <div class="words">
+            Chúc Vy có một ngày sinh nhật vui vẻ nhé!
+            <div class="word" id="words1">Chúc Vy có một ngày sinh nhật vui vẻ nhé!</div>
+          </div>
+         
+           <div class="words">
+            Tuổi mới, mong Vy luôn vui vẻ và gặp nhiều may mắn trong cuộc sống!
+            <div class="word" id="words2">Tuổi mới, mong Vy luôn vui vẻ và gặp nhiều may mắn trong cuộc sống!</div>
+          </div>
+
+          <div class="words">
+            Nhớ ăn uống đầy đủ, ngủ đủ và chăm sóc bản thân nha!
+            <div class="word" id="words3">Nhớ ăn uống đầy đủ, ngủ đủ và chăm sóc bản thân nha!</div>
+          </div>
+          <div class="words">
+            Trong các bài kiểm tra sắp tới, chúc Vy đạt được kết quả tốt nha!
+            <div class="word" id="words4"> Trong các bài kiểm tra sắp tới, chúc Vy đạt được kết quả tốt nha!</div>
+          </div>
+
+          <div class="words">
+            Cuối cùng, chúc Vy ngày càng xinh đẹp nha!!!!!
+            <div class="word" id="words5">Cuối cùng, chúc Vy ngày càng xinh đẹp nha!!!!!</div>
+          </div>
+
+          <div class="mySign words">
+            Hào
+            <div class="word" id="words6"> Hào</div>
+          </div>
+
+          <!-- <input type="button" value="Đóng" id="closeLetter" class="closeLetter"> -->
+        </p> 
+        <i class="fa-solid fa-arrow-right" id="arrow" ></i>
+      </div>
+
+      <div id="birthday-cake" class="">
+        <div class="cake">
+          <div class="middle"></div>
+          <div class="chocs"></div>
+          <div class="top"></div>
+        </div>
+        <div class="candles">
+          <div class="flame"></div>
+          <div class="flame2"></div>
+          <div class="flame3"></div>
+          <div class="text">Happy Birthday Vy!</div>
+          <div class="shadows"></div>
+        </div>
+        <p class="text2">*click on the flame to blow candles</p>
+      </div>
+</body>
+
+</html>
